@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\14.1\UART_youtube\uart_rtl.ncd
+OUTFILE=C:\Xilinx\14.1\UART_youtube\uart_rtl.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=C:\Xilinx\14.1\UART_youtube
+LICENSE=WebPack
+USER_INFO=_

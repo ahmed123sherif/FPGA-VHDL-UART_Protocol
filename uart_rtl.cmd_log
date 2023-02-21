@@ -1,0 +1,154 @@
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/14.1/UART_youtube/uart_rtl.xst" -ofn "C:/Xilinx/14.1/UART_youtube/uart_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx9-csg324-2 uart_rtl.ngc uart_rtl.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_rtl_map.ncd uart_rtl.ngd uart_rtl.pcf 
+par -w -intstyle ise -ol high -mt off uart_rtl_map.ncd uart_rtl.ncd uart_rtl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml uart_rtl.twx uart_rtl.ncd -o uart_rtl.twr uart_rtl.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f uart_rtl.ut uart_rtl.ncd 

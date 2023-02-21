@@ -1,0 +1,6 @@
+vhdl work "vhdl2_rtl.vhd"
+vhdl work "split_rtl.vhd"
+vhdl work "segment_rtl.vhd"
+vhdl work "rx_rtl.vhd"
+vhdl work "debouncer_rtl.vhd"
+vhdl work "vhdl1_rtl.vhd"
